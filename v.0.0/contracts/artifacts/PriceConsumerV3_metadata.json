@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Network: Sepolia Aggregator: BTC/USD Address: 0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43"
+				},
+				"getLatestPrice()": {
+					"notice": "Returns the latest price."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Funding.sol": "PriceConsumerV3"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Funding.sol": {
+			"keccak256": "0x8b8c3cc0a03eebddba271973e2fa9d56d434ed6efb8e77ad01cfb2e929fc7c96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://818e4a1c0bfc696e8f41a8e811da6010b921a6aae32df3be2495006b4124c34f",
+				"dweb:/ipfs/QmbmS5hErDkPxidYBHWR7BfpniYjcE66nBtr95ka8nveZ9"
+			]
+		}
+	},
+	"version": 1
+}
